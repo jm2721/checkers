@@ -1,0 +1,4 @@
+Juan Marron
+
+A checkers game (currently very far from finished) written with c++ and the gtkmm graphics library. To use, just
+copy all the files and run `make` in your terminal. Need to have gtkmm installed.
