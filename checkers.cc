@@ -68,7 +68,7 @@ void checkers::move(double x, double y){
   if(from_to%2 == 0)
     std::cout << "To " << x << ", " << y << std::endl;
  
- from_to++;
+  from_to++;
 }
 bool checkers::on_timeout()
 {

@@ -1,4 +1,12 @@
 Juan Marron
 
-A checkers game (currently very far from finished) written with c++ and the gtkmm graphics library. To use, just
+A two-player checkers game (currently very far from finished) written with c++ and the gtkmm graphics library. To use, just
 copy all the files and run `make` in your terminal. Need to have gtkmm installed.
+
+To do list after I'm not so busy:
+  Make the squares be managed by a "slot" method. Slot would take as input a single number between 0 and 63 inclusive,
+and draw a square on that position. Drawing the board would then be a simple matter of looping through 63 calls to "slot".
+This would greatly simplify piece movement because I could just move from slot x to slot y instead of recalculating the
+position. 
+  Splashscreen? Might be nice
+ 
