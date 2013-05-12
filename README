@@ -9,4 +9,6 @@ and draw a square on that position. Drawing the board would then be a simple mat
 This would greatly simplify piece movement because I could just move from slot x to slot y instead of recalculating the
 position. 
   Splashscreen? Might be nice
- 
+  Need to fix the pieces vector. Right now it is reassigning a memory location to the pieces every time the frame changes, 
+which is not good. Need to have an initial setup where all the memory locations are established, and the program then works
+from there.  

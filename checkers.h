@@ -14,6 +14,7 @@ class checkers : public Gtk::DrawingArea
     checkers();
     
     void move(double x, double y);   
+    void slot(int s, const Cairo::RefPtr<Cairo::Context>& cr, int width, int height);
   protected:
     //gets the system time
     

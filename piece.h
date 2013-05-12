@@ -11,9 +11,9 @@
 class piece
 {
   public:
-    piece(int team, int iPosition, int jPosition, int radius, const Cairo::RefPtr<Cairo::Context>& cr, int square);
+    piece(int team, int iPosition, int jPosition, int radius, const Cairo::RefPtr<Cairo::Context>& cr, int slot);
    
   private:
-    int team, iPosition, jPosition, neighbors, radius, square;
+    int team, iPosition, jPosition, neighbors, radius, slot;
 };
 #endif
